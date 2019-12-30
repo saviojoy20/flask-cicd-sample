@@ -4,7 +4,7 @@ RUN  mkdir /var/app
 
 WORKDIR /var/app
 
-COPY ./app/app.py  .
+COPY .app.py  .
 COPY ./requirement.txt .
 
 RUN apk add --no-cache python3
